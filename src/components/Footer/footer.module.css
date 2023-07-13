@@ -1,0 +1,61 @@
+.main {
+  font-size: 1rem;
+  padding: 3rem 7rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.leftSide {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.footerMainText {
+  font-size: 3rem;
+  font-weight: 600;
+  max-width: 70%;
+  margin: 0;
+}
+
+.email {
+  font-size: 2rem;
+  width: fit-content;
+}
+
+.subText {
+  font-size: 1.4rem;
+  width: fit-content;
+}
+
+.emailInput {
+  max-width: 30rem;
+}
+
+.rightSide {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: end;
+  padding-top: 10rem;
+}
+
+.breadcrumb {
+  white-space: nowrap;
+}
+
+.icons img:not(:last-child) {
+  margin-right: 2rem;
+}
+
+.final {
+  font-size: 1rem;
+  padding: 3rem 7rem;
+  display: flex;
+  opacity: 0.7;
+}
+
+.final p:not(:last-child) {
+  margin-right: 3rem;
+}

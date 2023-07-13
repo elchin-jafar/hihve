@@ -1,0 +1,31 @@
+.main {
+  font-size: 1rem;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+}
+
+.leftSide {
+  display: flex;
+}
+
+.leftSide img {
+  margin-right: 1.5rem;
+}
+
+.rightSide {
+  display: flex;
+}
+
+.rightSide > *:not(:first-child) {
+  margin-left: 3rem;
+}
+
+.signIn {
+  display: flex;
+}
+
+.signIn p {
+  margin-left: 0.6rem;
+  text-decoration: underline;
+}
