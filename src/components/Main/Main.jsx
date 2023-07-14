@@ -12,14 +12,25 @@ function Main() {
     <div className={classes.main}>
       <div className={classes.element}>
         <ElementHeader>General Information</ElementHeader>
-        <label htmlFor="name">Name</label>
-        <input type="text" id="name" />
-        <label htmlFor="date">Date of birth</label>
-        <input type="date" id="date" />
-        <label htmlFor="height">Height</label>
-        <input type="text" id="height" />
-        <label htmlFor="height2">Height</label>
-        <input type="text" id="height2" />
+        <div class={classes["form-input-name"]}>
+          <input type="text" placeholder="Enter your name" id="name" />
+          <label for="name">Name</label>
+        </div>
+
+        <div className={classes["lower-inputs-container"]}>
+          <div class={classes["form-input-date"]}>
+            <input type="date" placeholder="Enter your name" id="date" />
+            <label for="date">Date of birth</label>
+          </div>
+          <div class={classes["form-input-height"]}>
+            <input type="text" placeholder="Enter your name" id="height" />
+            <label for="height">Height</label>
+          </div>
+          <div class={classes["form-input-height"]}>
+            <input type="text" placeholder="Enter your name" id="height2" />
+            <label for="height2">Height</label>
+          </div>
+        </div>
       </div>
 
       <div className={classes.element}>

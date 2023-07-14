@@ -18,7 +18,10 @@ function Footer() {
           </p>
           <p className={classes.email}>contact@hihve.com</p>
           <p className={classes.subText}>Subscribe and get news</p>
-          <input type="text" className={classes.emailInput} />
+          <div className={classes["form-input"]}>
+            <input type="email" placeholder="Email address" id="email" />
+            <label for="email">Email</label>
+          </div>
         </div>
 
         <div className={classes.rightSide}>
