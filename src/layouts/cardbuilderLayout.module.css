@@ -1,0 +1,39 @@
+.cubeElement {
+    width: fit-content;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #525655;
+    margin-bottom: 1rem;
+}
+
+.cubeImg {
+    width: 5rem;
+}
+
+.cubeTitle {
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.container {
+    display: flex;
+}
+
+.left {
+    flex: 1;
+    padding: 3rem 1.5rem;
+}
+
+.right {
+    flex: 19;
+}
+
+.topCubes {
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+    margin-bottom: 1rem;
+}

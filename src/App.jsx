@@ -1,17 +1,26 @@
-import Footer from "./components/Footer/Footer";
-import Header from "./components/Header/Header";
-import Main from "./components/Main/Main";
-import ProfileBuilder from "./components/ProfileBuilder/ProfileBuilder";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import ProfileBuilder from "./pages/ProfileBuilder/ProfileBuilder";
+import CardBuilderSideLayout from "./layouts/CardBuilderSideLayout";
+import CardBuilder from "./pages/CardBuilder/CardBuilder";
 
 function App() {
-  return (
-    <>
-      <Header />
-      <ProfileBuilder />
-      <Main />
-      <Footer />
-    </>
-  );
+  const router = createBrowserRouter([
+    {
+      path: "/",
+      element: <ProfileBuilder />,
+    },
+    {
+      path: "/card-builder",
+      element: <CardBuilderSideLayout />,
+      children: [
+        {
+          path: "",
+          element: <CardBuilder />,
+        },
+      ],
+    },
+  ]);
+  return <RouterProvider router={router} />;
 }
 
 export default App;

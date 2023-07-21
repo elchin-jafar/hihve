@@ -13,6 +13,7 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
+
 @font-face {
   font-family: "Helvetica";
   src: url("/fonts/helvetica.woff2") format("woff2"),
