@@ -37,6 +37,14 @@ function CardBuilder() {
             <Input type="number" placeholder="Height" />
           </FlexInputs>
         </div>
+        <div className={classes.socials}>
+          <p>Social Media</p>
+          <FlexInputs>
+            <Input placeholder="Instagram" />
+            <Input placeholder="Twitter" />
+            <Input placeholder="Hudl" />
+          </FlexInputs>
+        </div>
       </div>
     </div>
   );

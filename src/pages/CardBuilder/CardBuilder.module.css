@@ -20,8 +20,20 @@
     gap: 0.5rem;
     padding-bottom: 1rem;
     border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+    margin-bottom: 2rem;
 }
 
 .btns button {
     font-size: 1rem;
+}
+
+.mainInputs {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+    padding-bottom: 24px;
+}
+
+.socials p {
+    font-size: 16px;
+    font-weight: 600;
+    margin: 25px 0;
 }
